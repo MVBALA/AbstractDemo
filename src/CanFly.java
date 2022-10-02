@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public interface CanFly {
+public interface CanFly {
+    void fly();
+
 }

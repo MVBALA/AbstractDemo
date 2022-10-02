@@ -1,2 +1,20 @@
-package PACKAGE_NAME;public class Bird {
+public abstract class Bird extends Animal implements CanFly{
+    public Bird(String name) {
+        super(name);
+    }
+
+    @Override
+    public void eat() {
+        System.out.println(getName()+" is pecking");
+    }
+
+    @Override
+    public void breath() {
+        System.out.println("Breath in ,breath out,repeatly");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println(getName()+"is flappingis Wings");
+    }
 }
